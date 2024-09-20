@@ -1,0 +1,11 @@
+activate:
+	conda activate ml-5
+
+deactivate:
+	conda deactivate
+
+start:
+	jupyter notebook --no-browser --ip=0.0.0.0 --port=8888
+
+install:
+	conda install -c conda-forge notebook
